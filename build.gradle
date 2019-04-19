@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'loc.zank'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+mainClassName = 'loc.zank.Client'
+
+jar {
+    manifest {
+        attributes 'Main-Class' : mainClassName
+    }
+}
+
